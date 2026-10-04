@@ -12,19 +12,19 @@ class Ejercicio3 extends StatelessWidget {
         children: [
           Center( 
           child:
-          Image.asset("images/escultura1.jpg",
+          Image.asset("assets/images/escultura1.jpg",
           width: 220,
           height: 220,
           )),
           Center( 
           child:
-          Image.asset("images/escultura2.jpg",
+          Image.asset("assets/images/escultura2.jpg",
           width: 200,
           height: 200,
           )),
           Center( 
           child:
-          Image.asset("images/escultura3.jpg",
+          Image.asset("assets/images/escultura3.jpg",
           width: 200,
           height: 200,
           )),

@@ -13,7 +13,7 @@ class Ejercicio2 extends StatelessWidget {
         children: [
           Center( 
           child:
-          Image.asset("images/imagen.jpg",
+          Image.asset("assets/images/imagen.jpg",
           width: 500,
           height: 500,
           )),

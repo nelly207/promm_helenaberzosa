@@ -12,31 +12,31 @@ class Ejercicio5 extends StatelessWidget {
         children: <Widget>[
           Center( 
           child:
-          Image.asset("images/imagen_rectangular1.jpg",
+          Image.asset("assets/images/imagen_rectangular1.jpg",
           width: 500,
           height: 100,
           )),
           Center( 
           child:
-          Image.asset("images/imagen_rectangular2.jpg",
+          Image.asset("assets/images/imagen_rectangular2.jpg",
           width: 500,
           height: 100,
           )),
           Center( 
           child:
-          Image.asset("images/imagen_rectangular3.jpg",
+          Image.asset("assets/images/imagen_rectangular3.jpg",
           width: 500,
           height: 100,
           )),
           Center( 
           child:
-          Image.asset("images/imagen_rectangular4.jpg",
+          Image.asset("assets/images/imagen_rectangular4.jpg",
           width: 500,
           height: 100,
           )),
           Center( 
           child:
-          Image.asset("images/imagen_rectangular5.jpg",
+          Image.asset("assets/images/imagen_rectangular5.jpg",
           width: 550,
           height: 100,
           )),
