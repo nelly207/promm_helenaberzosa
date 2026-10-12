@@ -7,7 +7,7 @@ class Ejercicio7 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Ejercicio 7'),
+        title: const Text('Ejercicio 7 - Imágenes'),
       ),
       body: Column(
         children: [
