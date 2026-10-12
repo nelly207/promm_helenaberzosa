@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:proyecto_flutter/screens/ejercicio1.dart';
-import 'package:proyecto_flutter/screens/ejercicio2.dart';
-import 'package:proyecto_flutter/screens/ejercicio3.dart';
-import 'package:proyecto_flutter/screens/ejercicio4.dart';
-import 'package:proyecto_flutter/screens/ejercicio5.dart';
+import 'package:proyecto_flutter/screens/actividad1/ejercicio1.dart';
+import 'package:proyecto_flutter/screens/actividad1/ejercicio2.dart';
+import 'package:proyecto_flutter/screens/actividad1/ejercicio3.dart';
+import 'package:proyecto_flutter/screens/actividad1/ejercicio4.dart';
+import 'package:proyecto_flutter/screens/actividad1/ejercicio5.dart';
+import 'package:proyecto_flutter/screens/actividad2/ejercicio6.dart';
+import 'package:proyecto_flutter/screens/actividad2/ejercicio7.dart';
+import 'package:proyecto_flutter/screens/actividad2/ejercicio8.dart';
+import 'package:proyecto_flutter/screens/actividad2/ejercicio9.dart';
 
 class MenuLateral extends StatelessWidget{
   const MenuLateral({super.key});
@@ -61,7 +65,41 @@ class MenuLateral extends StatelessWidget{
               ));
             },
           ),
-        ]
+          ListTile(
+            title: const Text("Ejercicio 6"),
+            onTap: () {
+              Navigator.of(context).pop();
+              Navigator.of(context).push(MaterialPageRoute(
+                builder: (BuildContext context) => const Ejercicio6()
+              ));
+            },
+          ),
+          ListTile(
+            title: const Text("Ejercicio 7"),
+            onTap: () {
+              Navigator.of(context).pop();
+              Navigator.of(context).push(MaterialPageRoute(
+                builder: (BuildContext context) => const Ejercicio7()
+              ));
+            },
+          ),ListTile(
+            title: const Text("Ejercicio 8"),
+            onTap: () {
+              Navigator.of(context).pop();
+              Navigator.of(context).push(MaterialPageRoute(
+                builder: (BuildContext context) => const Ejercicio8()
+              ));
+            },
+          ),ListTile(
+            title: const Text("Ejercicio 9"),
+            onTap: () {
+              Navigator.of(context).pop();
+              Navigator.of(context).push(MaterialPageRoute(
+                builder: (BuildContext context) => const Ejercicio9()
+              ));
+            },
+          ),
+        ],
       ),
     );
   }
