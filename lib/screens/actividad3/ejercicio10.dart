@@ -8,16 +8,32 @@ class Ejercicio10 extends StatelessWidget {
       appBar: AppBar(
         title: Text('Ejercicio 10'),
         ),
-      body: Column(
+      body: Row(
         children: [
-          Center( 
-          child:
-          Text("Helena Berzosa García", 
-          style: TextStyle(
-            fontSize: 30,
-            fontWeight: FontWeight.bold,
-          ),
-          ))
+          Column(children:[
+            Text("Helena Berzosa García",
+            style: TextStyle(
+              fontSize: 30,
+              fontWeight: FontWeight.bold,
+            ),
+            ),
+          ]),
+          Column(children: [
+            Text("Helena Berzosa García",
+            style: TextStyle(
+              fontSize: 30,
+              fontWeight: FontWeight.bold,
+            ),
+            ),
+          ]),
+          Column(children: [
+            Text("Helena Berzosa García",
+            style: TextStyle(
+              fontSize: 30,
+              fontWeight: FontWeight.bold,
+            ),
+            ),
+          ])
         ]
       ),
     );
